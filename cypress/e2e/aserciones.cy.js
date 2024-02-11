@@ -17,7 +17,7 @@ describe("Aserciones", () => {
         })
 
     })
-
+    // este es el asercion dos
     it("Asercion 3", () => {
         cy.url().should("include", "demoqa.com")
         cy.get("#firstName").then((element) => {
